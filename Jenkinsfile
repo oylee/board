@@ -5,9 +5,9 @@ pipeline {
             PROFILE = 'local'
             AWS_CREDENTIAL_NAME = 'aws-key'
             REGION="ap-northeast-2"
-            ECR_PATH = '598552988151.dkr.ecr.ap-northeast-2.amazonaws.com'
+            ECR_PATH = '074397164943.dkr.ecr.us-east-1.amazonaws.com'
             IMAGE_NAME = '598552988151.dkr.ecr.ap-northeast-2.amazonaws.com/board'
-            DEPLOY_Host="43.201.70.137"
+            DEPLOY_Host="44.204.22.142"
         }
     stages {
         stage('Pull Codes from Github'){
